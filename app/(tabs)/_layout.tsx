@@ -29,7 +29,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Specs',
+          title: 'Preferences',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -48,21 +48,21 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="Sauce"
+        name="SauceRecipe"
         options={{
           title: 'Sauce',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="Flour"
+        name="FlourProtein"
         options={{
           title: 'Flour',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="Dough"
+        name="DoughRecipe"
         options={{
           title: 'Dough',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,

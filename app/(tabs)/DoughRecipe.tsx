@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center', // aligns items along the main axis (vertically for column direction)
     alignItems: 'center', // aligns items along the cross axis (horizontally for column direction)
     backgroundColor: '#ecf0f1',
+    padding: 8,
   },
   title: {
     textAlign: 'center',
