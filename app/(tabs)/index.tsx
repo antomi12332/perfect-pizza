@@ -31,9 +31,8 @@ export default function PizzaType() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center', // aligns items along the main axis (vertically for column direction)
-    alignItems: 'center', // aligns items along the cross axis (horizontally for column direction)
-    backgroundColor: '#ecf0f1',
-    padding: 18,
+    marginTop: 50,
+    padding: 20,
+    backgroundColor: '#fff',
   },
 });
