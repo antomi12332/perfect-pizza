@@ -10,7 +10,7 @@ export default function Size() {
       <Text style={styles.title}>Pizza Size</Text>
       <Text style={styles.text}>{selectedSize} inches</Text>
       <Slider
-        style={{ width: 200, height: 40 }}
+        style={{ width: 200, height: 40, alignSelf: 'center' }}
         minimumValue={9}
         maximumValue={18}
         step={1}

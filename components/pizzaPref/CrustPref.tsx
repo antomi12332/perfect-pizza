@@ -18,7 +18,7 @@ export default function Crust() {
       <Text style={styles.title}>Crust Preference</Text>
       <Text style={styles.text}>{crustLevels[crustPref]}</Text>
       <Slider
-        style={{ width: 200, height: 40 }}
+        style={{ width: 200, height: 40, alignSelf: 'center'  }}
         minimumValue={1}
         maximumValue={3}
         step={1}

@@ -16,7 +16,7 @@ export default function Cheese() {
       <Text style={styles.title}>Cheese Quantity</Text>
       <Text style={styles.text}>{cheeseLevels[cheese]}</Text>
       <Slider
-        style={{ width: 200, height: 40 }}
+        style={{ width: 200, height: 40, alignSelf: 'center'  }}
         minimumValue={1}
         maximumValue={4}
         step={1}

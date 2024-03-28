@@ -10,7 +10,7 @@ export default function Quantity() {
     <View>
       <Text style={styles.title}>Pizza Quantity</Text>
       <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1, textAlign: 'center' }}
+        style={{ height: 40, width: 60, alignSelf: 'center', borderColor: 'gray', borderWidth: 1, textAlign: 'center' }}
         onChangeText={setQuantity}
         value={quantity}
         keyboardType="numeric"
