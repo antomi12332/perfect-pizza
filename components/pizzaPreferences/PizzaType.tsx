@@ -1,10 +1,11 @@
-import { ScrollView, StyleSheet, TextInput } from 'react-native';
+import { Button, ScrollView, StyleSheet, TextInput } from 'react-native';
 import { Text, View } from '@/components/Themed';
 import React, { useState } from 'react';
 import Slider from '@react-native-community/slider';
 
 
-export default function PizzaType() {
+
+export default function PizzaType({ navigation }: { navigation: any }) {
   const [quantity, setQuantity] = useState('1');
   const [selectedSize, setSelectedSize] = useState(12);
   const [crustPref, setCrustPref] = useState(2);
@@ -91,6 +92,11 @@ export default function PizzaType() {
           onValueChange={setCheese}
           minimumTrackTintColor="#FFFFFF"
           maximumTrackTintColor="#000000"
+        />
+
+        <Button
+          title="Sauce Recipe"
+          onPress={() => navigation.navigate('Sauce Recipe')}
         />
 
 
