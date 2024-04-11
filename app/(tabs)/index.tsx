@@ -14,6 +14,5 @@ export default function App() {
       <Stack.Screen name="Sauce Recipe" component={SauceRecipe} />
       <Stack.Screen name="Flour Protein" component={FlourProtein} />
     </Stack.Navigator>
-    // I want to see this change in github
   )
 }
